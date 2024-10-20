@@ -1,4 +1,4 @@
-import { firebaseConfig } from './firebaseConfig';
+import { firebaseConfig } from './firebaseConfig.js';
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.11.0/firebase-app.js'
 import { getDatabase, ref, child, get } from "https://www.gstatic.com/firebasejs/9.11.0/firebase-database.js"
 import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
